@@ -1,5 +1,5 @@
 class CreatePlans < ActiveRecord::Migration[6.0]
-  def change
+  def calenders
     create_table :plans do |t|
       t.string :plan
       t.date :date
